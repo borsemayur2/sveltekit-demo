@@ -1,0 +1,54 @@
+Arguments: 
+  /home/mb/.nvm/versions/node/v14.15.4/bin/node /home/mb/.nvm/versions/node/v14.15.4/bin/yarn add @sveltejs/adapter-vercel
+
+PATH: 
+  /home/mb/.fly/bin:/home/mb/.dvm/bin:/home/mb/.deno/bin:/home/mb/.nvm/versions/node/v14.15.4/bin:/home/mb/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/Mayur Borse/.windows-build-tools/python27:/mnt/c/Users/Mayur Borse/scoop/shims:/mnt/c/Users/Mayur Borse/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/Mayur Borse/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/Mayur Borse/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Mayur Borse/.deno/bin:/mnt/c/Users/Mayur Borse/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/Mayur Borse/.dvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/mb/.cache/yarn/v6/npm-globals-12.4.0-a18813576a41b00a24a97e7f815918c2e19925f8-integrity/node_modules/globals/globals.json' -> '/home/mb/my/career/svelte/sveltekit/node_modules/@eslint/eslintrc/node_modules/globals/globals.json'
+
+npm manifest: 
+  {
+  	"name": "sveltekit",
+  	"version": "0.0.1",
+  	"scripts": {
+  		"dev": "svelte-kit dev",
+  		"build": "svelte-kit build",
+  		"start": "svelte-kit start",
+  		"lint": "prettier --check . && eslint --ignore-path .gitignore .",
+  		"format": "prettier --write ."
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-node": "next",
+  		"@sveltejs/kit": "next",
+  		"svelte": "^3.29.0",
+  		"vite": "^2.1.0",
+  		"typescript": "^4.0.0",
+  		"tslib": "^2.0.0",
+  		"svelte-preprocess": "^4.0.0",
+  		"less": "^3.0.0",
+  		"@typescript-eslint/eslint-plugin": "^4.19.0",
+  		"@typescript-eslint/parser": "^4.19.0",
+  		"eslint": "^7.22.0",
+  		"eslint-plugin-svelte3": "^3.1.0",
+  		"prettier": "~2.2.1",
+  		"prettier-plugin-svelte": "^2.2.0",
+  		"eslint-config-prettier": "^8.1.0"
+  	},
+  	"type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
