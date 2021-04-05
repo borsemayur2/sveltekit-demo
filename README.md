@@ -14,6 +14,10 @@ npm init svelte@next
 npm init svelte@next my-app
 ```
 
+### Set `ADAPTER` env variable ("netlify" or "vercel") as per deployment service
+
+``
+
 > Note: the `@next` is temporary
 
 ## Developing
